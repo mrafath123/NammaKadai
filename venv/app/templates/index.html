@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Kadai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <h1>Welcome to Namma Kadai</h1>
+    <p>Cash Balance: ₹{{ company.cash_balance }}</p>
+    <h2>Items:</h2>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.item_name }} (Qty: {{ item.qty }})</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('app_routes.add_item') }}">Add Item</a> | 
+    <a href="{{ url_for('app_routes.add_purchase') }}">Add Purchase</a> | 
+    <a href="{{ url_for('app_routes.add_sale') }}">Add Sale</a>
+</body>
+</html>
