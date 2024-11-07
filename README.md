@@ -28,35 +28,35 @@ Prerequisites
 
 Clone the Repository
 
-git clone https://github.com/mrafath123/NammaKadai.git
-cd NammaKadai
+      git clone https://github.com/mrafath123/NammaKadai.git
+      cd NammaKadai
 
 Create a Virtual Environment
 
-python -m venv venv
+      python -m venv venv
 
 Activate the virtual environment:
 
 Windows:
 
-venv\Scripts\activate
+      venv\Scripts\activate
 
 Mac/Linux:
 
-source venv/bin/activate
+      source venv/bin/activate
 
 ### Install Dependencies
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 Or manually install necessary packages:
 
-pip install Flask Flask-SQLAlchemy
+      pip install Flask Flask-SQLAlchemy
 
 ### Database Setup
 Run the app to initialize the database and add initial data.
 
-python run.py
+      python run.py
 
 This creates store.db in the root folder, which is an SQLite database storing inventory, purchase, and sales data.
 
@@ -64,7 +64,7 @@ This creates store.db in the root folder, which is an SQLite database storing in
 To start the web server,
 run:
 
-python run.py
+      python run.py
 
 Access the application at http://127.0.0.1:5000/.
 
