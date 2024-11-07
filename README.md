@@ -89,9 +89,11 @@ Add Sale (sales.html): Logs a sale, decreasing item quantity and increasing cash
 
 Screenshots
 
-![Home page](https://github.com/user-attachments/assets/71501d6b-9839-448c-80a0-69d193645cc4)
-![Add items page](https://github.com/user-attachments/assets/244fea7a-672c-499a-8bb6-710a2196e330)
-![Purchase items page](https://github.com/user-attachments/assets/11b80b26-126f-47c1-b8aa-53afd4e064b7)
+![Home page](https://github.com/user-attachments/assets/855e74d9-e3da-48fb-900f-77b6ebc4a349)
+![Add items page](https://github.com/user-attachments/assets/5ad6af81-85db-4e70-97a4-0d380fb8287b)
+![Purchase items page](https://github.com/user-attachments/assets/7a7c134c-7990-44ae-9c3c-933643c9dc05)
+![sales item page](https://github.com/user-attachments/assets/edf3907d-055b-4782-94d6-8edcb54498c7)
+
 
 
 
