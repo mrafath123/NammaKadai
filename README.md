@@ -2,24 +2,6 @@
 
 **Namma Kadai** is a web application designed for managing inventory, purchases, and sales for a small shop. Built using Flask, this application includes basic inventory tracking, financial transactions, and real-time updates of stock levels and cash balance.
 
-## Project Structure
-
-NammaKadai/
-│
-├── app/                           # Main application folder
-│   ├── __init__.py                # Initializes Flask app and database
-│   ├── models.py                  # Defines database models (Company, Item, Purchase, Sales)
-│   ├── routes.py                  # Defines application routes for main functionalities
-│   ├── config.py                  # (Optional) Configuration settings
-│   └── templates/                 # HTML templates for the application
-│       ├── index.html             # Homepage template showing cash balance and items
-│       ├── items.html             # Template for adding new items
-│       ├── purchases.html         # Template for adding purchase entries
-│       └── sales.html             # Template for adding sales entries
-├── run.py                         # Main script to run the application
-└── store.db                       # SQLite database file (created on first run)
-
-
 ### Screenshots
 Home page
 ![Home page](https://github.com/user-attachments/assets/855e74d9-e3da-48fb-900f-77b6ebc4a349)
@@ -98,6 +80,24 @@ Homepage (index.html): Displays current cash balance and available items with qu
 Add Item (items.html): Allows adding new items to inventory.
 Add Purchase (purchases.html): Records a purchase, increasing item quantity and reducing cash balance.
 Add Sale (sales.html): Logs a sale, decreasing item quantity and increasing cash balance.
+
+## Project Structure
+
+```plaintext
+NammaKadai/
+│
+├── app/                           # Main application folder
+│   ├── __init__.py                # Initializes Flask app and database
+│   ├── models.py                  # Defines database models (Company, Item, Purchase, Sales)
+│   ├── routes.py                  # Defines application routes for main functionalities
+│   ├── config.py                  # (Optional) Configuration settings
+│   └── templates/                 # HTML templates for the application
+│       ├── index.html             # Homepage template showing cash balance and items
+│       ├── items.html             # Template for adding new items
+│       ├── purchases.html         # Template for adding purchase entries
+│       └── sales.html             # Template for adding sales entries
+├── run.py                         # Main script to run the application
+└── store.db                       # SQLite database file (created on first run)
 
 
 
